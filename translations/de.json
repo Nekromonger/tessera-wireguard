@@ -1,0 +1,13 @@
+{
+  "_meta": { "name": "Deutsch" },
+  "screen": {
+    "bar_up": "VPN",
+    "bar_down": "VPN getrennt"
+  },
+  "app": {
+    "name": "WireGuard-Status",
+    "summary": "Ein Schild in der oberen Leiste: grün, solange der WireGuard-Tunnel steht, rot, wenn er getrennt ist.",
+    "bar_tunnel": "WireGuard-Tunnel",
+    "bar_example": "VPN"
+  }
+}

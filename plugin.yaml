@@ -1,0 +1,10 @@
+# What a screen gets when it takes this plugin. The screen's own YAML has the tunnel (`wireguard:`); this adds its status,
+# which Home Assistant shows too, and the component that puts it in the top bar.
+binary_sensor:
+  - platform: wireguard
+    status:
+      id: wireguard_bar_status
+      name: "WireGuard status"
+
+wireguard_bar:
+  status: wireguard_bar_status

@@ -1,0 +1,13 @@
+{
+  "_meta": { "name": "English" },
+  "screen": {
+    "bar_up": "VPN",
+    "bar_down": "VPN off"
+  },
+  "app": {
+    "name": "WireGuard status",
+    "summary": "A shield in the top bar: green while the screen's WireGuard tunnel is up, red while it is down.",
+    "bar_tunnel": "WireGuard tunnel",
+    "bar_example": "VPN"
+  }
+}
