@@ -9,7 +9,7 @@ import esphome.config_validation as cv
 from esphome.components import binary_sensor, smart_display
 from esphome.const import CONF_ID
 
-DEPENDENCIES = ["smart_display", "wireguard"]
+DEPENDENCIES = ["smart_display", "wireguard", "wifi"]
 
 CONF_STATUS = "status"
 

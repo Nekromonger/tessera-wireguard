@@ -1,13 +1,17 @@
 {
-  "_meta": { "name": "Deutsch" },
+  "_meta": {
+    "name": "Deutsch"
+  },
   "screen": {
     "bar_up": "VPN",
     "bar_down": "VPN getrennt"
   },
   "app": {
     "name": "WireGuard-Status",
-    "summary": "Ein Schild in der oberen Leiste: grün, solange der WireGuard-Tunnel steht, rot, wenn er getrennt ist.",
+    "summary": "Ein Schild in der oberen Leiste für den WireGuard-Tunnel, dazu das WLAN-Signal in Grün, Orange oder Rot.",
     "bar_tunnel": "WireGuard-Tunnel",
-    "bar_example": "VPN"
+    "bar_example": "VPN",
+    "bar_signal": "WLAN-Signal farbig",
+    "bar_signal_example": "72 %"
   }
 }

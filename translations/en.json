@@ -1,13 +1,17 @@
 {
-  "_meta": { "name": "English" },
+  "_meta": {
+    "name": "English"
+  },
   "screen": {
     "bar_up": "VPN",
     "bar_down": "VPN off"
   },
   "app": {
     "name": "WireGuard status",
-    "summary": "A shield in the top bar: green while the screen's WireGuard tunnel is up, red while it is down.",
+    "summary": "A shield in the top bar for the screen's WireGuard tunnel, and its Wi-Fi signal in green, amber or red.",
     "bar_tunnel": "WireGuard tunnel",
-    "bar_example": "VPN"
+    "bar_example": "VPN",
+    "bar_signal": "Wi-Fi signal in colour",
+    "bar_signal_example": "72 %"
   }
 }

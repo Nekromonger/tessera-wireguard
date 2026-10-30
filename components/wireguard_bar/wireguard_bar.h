@@ -5,7 +5,7 @@
 
 namespace esphome::wireguard_bar {
 
-// The plugin: an ESPHome component and a tessera::Plugin. It registers its top bar item in setup().
+// The plugin: an ESPHome component and a tessera::Plugin. It registers its top bar items in setup().
 class WireguardBar : public Component, public tessera::Plugin {
  public:
   void setup() override;
@@ -14,6 +14,7 @@ class WireguardBar : public Component, public tessera::Plugin {
 
  private:
   tessera::BarItem bar() const;
+  tessera::BarItem signal() const;
   binary_sensor::BinarySensor *status_{};
 };
 

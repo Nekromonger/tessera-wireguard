@@ -1,7 +1,7 @@
 # WireGuard in the top bar: a green shield while the screen's WireGuard tunnel is up, a red one while it is down.
 # Every field is explained in docs/MANIFEST.md of github.com/MaxGramser/tessera-plugins.
 id: wireguard_bar
-version: 0.1.0
+version: 0.2.0
 api: "0.9"
 icon: shield-lock
 maintainer: Nekromonger
@@ -15,3 +15,4 @@ flash_kb: 2
 
 bar_items:
   - { id: tunnel, label: bar_tunnel, icon: shield-lock, example: bar_example }
+  - { id: signal, label: bar_signal, icon: wifi, example: bar_signal_example }
